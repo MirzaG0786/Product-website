@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>Quick Food</title>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+            .container{
+                width: 100%;
+                height: 90px;
+                background-color: #ef2808c7;
+                font-size: 30px;
+                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+            }
+            .navigation-left{
+                float: left;
+                padding: 25px;
+                text-decoration-color: white;
+            }
+            .fa-solid{
+                max-block-size: 50px;
+                color: greenyellow;
+            }
+            .navigation-right{
+                float: right;
+                padding: 25px;
+                text-decoration-color: white;
+            }
+            ul li{
+                list-style-type: none;
+                padding-right: 30px;
+                display: inline-block;
+                color: white;
+            }
+            .navigation-select{
+                width: 170px;
+                height: 40px;
+                border: 2px solid black;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .banner{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .banner img{
+                width: 100%;
+                height: 500px;
+            }
+            .box-model{
+                width: 100%;
+                height: 60px;
+                padding-top: 20px;
+                background-color: yellow;
+                text-align: center;
+            }
+            .big-container{
+                width: 99%;
+                height: auto;
+                background-color: pink;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 10px;
+                justify-content: center;
+            }
+            .box{
+                display: inline-block;
+                width: 250px;
+                height: 300px;
+                background-color: red;
+                margin: 20px;
+            }
+            .box img{
+                width: 250px;
+                height: 300px;
+            }
+            .form{
+                text-align: center;
+                font-size: medium;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                background-color: #fc8019;
+                padding: 10px;
+            }
+            .footer{
+                width: 100%;
+                height: 100px;
+                background-color: #5ff807f3;
+                padding-top: 10px;
+            }
+            .header{
+                text-align: center;
+                font-size: medium;
+                font-weight: 900;
+                padding-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <ul class="navigation-left">
+            <li>Logo</li>
+            <li>
+                <select class="navigation-select">
+                    <option>Food List</option>
+                    <option>Burger</option>
+                    <option>Pizza</option>
+                    <option>Butter Chicken</option>
+                    <option>Bread Cutlets</option>
+                    <option>Choumeen</option>
+                </select>
+            </li>
+        </ul>
+        <ul class="navigation-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <section class="banner">
+            <img src="https://s.tmimgcdn.com/scr/800x500/61100/quick-food-fast-food-restaurant-html5-website-template_61177-2-original.jpg">
+        </section>
+       <section class="box-model">
+        <h5>Amazing and Delicious Food</h5><br><br>
+       </section>
+        <section>
+            <div class="big-container">
+                <div class="box">
+                    <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_232,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F160929101749-essential-spanish-dish-paella-phaidon.jpg">
+                </div>
+                <div class="box">
+                    <img src="https://www.currytrail.in/wp-content/uploads/2020/08/Mutton-Chops-Curry.jpg">
+                </div>
+                <div class="box">
+                    <img src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg">
+                </div>
+                <div class="box">
+                    <img src="https://angeloueconomics.com/wp-content/uploads/2018/08/FastFood.png">
+                </div>
+                <div class="box">
+                    <img src="https://www.cookingclassy.com/wp-content/uploads/2021/01/butter-chicken-4.jpg">
+                </div>
+                <div class="box">
+                    <img src="https://greenbowl2soul.com/wp-content/uploads/2019/11/vegetable-chow-mein.jpg">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaAdsXI7wn1PggOCnMlXVd9KRBfaX78ppo_w&usqp=CAU">
+                </div>
+                <div class="box">
+                    <img src="https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+                </div>
+            </div>
+        </section>
+        <section>
+            <form class="form">
+                <h1>Feedback Form</h1><br>
+                Full Name:<br><input type="text" name="fullname"><br>
+                Email:    <br><input type="email" name="email"><br>
+                phone No.:<br><input  type="number" name="number"><br>
+                Comments: <br><textarea type="comment" name="comment"></textarea><br><br>
+                <input type="button" value="submit">
+            </form>
+        </section>
+        <footer class="footer">
+            <h1 class="header">https://www.QuickFood.com</h1>
+            <h1 class="header">Thank You for my Website visiting us.</h1>
+        </footer>
+    </body>
+</html>
